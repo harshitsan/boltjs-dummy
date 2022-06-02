@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "esModuleInterop": true,
+    "target": "es6",
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "outDir": "dist",
+    "typeRoots": [ "./typings", "./node_modules/@types"],
+    "alwaysStrict": true
+  },
+  "exclude": ["node_modules", "typings"],
+  "lib": ["es2015"]
+}
